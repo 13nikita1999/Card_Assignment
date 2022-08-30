@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;1,200&display=swap');
+
+*{
+    margin: 0;
+    top: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* .upp{
+    background-color: white;
+} */
+.head{
+    text-align: center;
+    font-size: 40px;
+    letter-spacing: 1px;
+}
+#head1{
+    color: gray;
+    padding: 30px 0px 0px 0px;
+    font-weight: normal;
+}
+
+.para{
+    text-align: center;
+    color: rgb(199, 190, 190);
+}
+
+.low{
+    margin: 50px 0px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 10px;
+}
+.box{
+    margin: 15px;
+}
+#left-box{
+    background-color: rgb(17, 195, 208);
+    border-radius: 5px;
+    margin-top: 150px;
+    height: 200px;
+}
+.boc{
+    background-color: white;
+    margin-top: 6px;
+    border-radius: 5px;
+    border: 1px solid rgb(233, 225, 225);
+}
+
+i{
+    color: rgb(17, 195, 208);
+    padding: 40px 0px 22px 320px;
+    font-size: 60px;
+}
+
+#right-box{
+    background-color: rgb(23, 140, 148);
+    border-radius: 5px;
+    height: 200px;
+    margin-top: 150px;
+}
+.mid-boxes{
+    margin: 10px 0px 20px 0px;
+}
+#mid-box1{
+    background-color: rgb(178, 11, 11);
+    height: 220px;
+    border-radius: 5px;
+    
+}
+#mid-box2{
+    background-color: rgb(154, 173, 13);
+    height: 200px;
+    border-radius: 5px;
+}
+.box1-mid{
+    background-color: white;
+    top: 6px;
+    border: 1px solid rgb(233, 225, 225);
+    position: relative;
+    border-radius: 5px;
+}
+
+h1{
+    font-size: 30px;
+    padding: 20px 0px 0 20px;
+}
+p{
+    font-size: 12px;
+    padding: 10px 20px 0 20px;
+    letter-spacing: 1px;
+}
+
+
+/* ---------------- Media Query */
+@media only screen and (max-width:320px) {
+    .low{
+        display: flex;
+        margin-top: 20px;
+        flex-direction: column;
+    }
+    .mid-boxes{
+        margin: 20px 0px 20px 0px;
+    }
+    #left-box{
+        margin-top:0px;
+    }
+    i{
+        padding: 40px 0px 22px 200px;
+    }
+}
+@media only screen and (max-width:600px) {
+    .low{
+        display: flex;
+        flex-direction: column;
+    }
+    .mid-boxes{
+        margin: 20px 0px 20px 0px;
+    }
+    #left-box{
+        margin-top:0px;
+    }
+    i{
+        padding: 40px 0px 22px 450px;
+    }
+    #mid-box1{
+        height: 200px;
+    }
+
+}
+@media only screen and (max-width:780px) {
+    #mid-box1{
+        height: 200px;        
+    }
+    .low{
+        display: flex;
+        flex-direction: column;
+    }
+    .mid-boxes{
+        margin: 20px 0px 20px 0px;
+    }
+    #left-box{
+        margin-top:0px;
+    }
+    i{
+        padding: 40px 0px 22px 450px;
+    }
+}
